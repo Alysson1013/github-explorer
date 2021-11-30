@@ -1,5 +1,6 @@
-const user = {
-  name: "Diego"
-}
+import React from 'react';
+import { App } from './App'
 
-console.log(user.address?.street)
+function Wrapper(){
+  return <App />
+}
